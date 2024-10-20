@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Poppins;
+color: white;
+}
+.todolist{
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+ max-width:900px ;
+    text-align: center;
+    background-color:rgb(75, 2, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+margin-bottom: 20px;
+    }
+    .input{
+        flex-wrap: wrap;
+
+        width: 70%;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       input{
+        width: 70%;
+        outline: none;
+        border: none;
+        background: transparent;
+        color: rgb(75, 2, 15);;
+        &::placeholder{
+            color: rgb(75, 2, 15);;
+        }
+       }
+      
+    }
+}.taskitem{
+padding: 20px;
+border-radius: 15px;
+background-color: aliceblue;
+margin-top:30px;
+width: 70%;
+text-align: start;
+flex-wrap: wrap;
+
+span{
+    
+width: 70%;    word-wrap: break-word;  
+      color: rgb(75, 2, 15);
+font-size: 14px;
+}
+}
+button{
+    border: none;
+    outline: none;
+    color: rgb(75, 2, 15);;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(7, 55, 196, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(7, 39, 78, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        border: none;
+    i{
+color: rgba(0, 0, 0, 0.755);
+    }
+   }
+   input[type="checkbox"] {
+    appearance: none; 
+    outline: none;
+        border: none;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #6B8E23; 
+    border-radius: 50%; 
+    background-color: #fff; 
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-color: #6B8E23; 
+    border-color: #6B8E23; 
+  }
+  
+  input[type="checkbox"]:checked::before {
+    content: '✔'; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: white; 
+    
+ }
+ 
+  
+  input[type="checkbox"]:hover {
+    background-color: #8f9e55; 
+  }
+  .vmeste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
