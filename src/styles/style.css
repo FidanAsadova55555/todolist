@@ -16,7 +16,7 @@ background-image: url(https://i.pinimg.com/control/564x/28/d6/a9/28d6a91b5a10044
   margin: 0 auto;
   max-width: 900px;
   text-align: center;
-  background-color: #8f9e55;
+  background-color: #540c0c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,13 +40,13 @@ background-image: url(https://i.pinimg.com/control/564x/28/d6/a9/28d6a91b5a10044
   outline: none;
   border: none;
   background: transparent;
-  color: rgb(44, 41, 42);
+  color:#340d0d;
 }
 .todolist .input input::-moz-placeholder {
-  color: rgb(44, 41, 42);
+  color:#340d0d;
 }
 .todolist .input input::placeholder {
-  color: rgb(44, 41, 42);
+  color:#340d0d;
 }
 
 .taskitem {
@@ -61,14 +61,14 @@ background-image: url(https://i.pinimg.com/control/564x/28/d6/a9/28d6a91b5a10044
 .taskitem span {
   width: 70%;
   word-wrap: break-word;
-  color: rgb(75, 2, 15);
+  color:#340d0d;
   font-size: 14px;
 }
 
 button {
   border: none;
   outline: none;
-  color: rgb(75, 2, 15);
+  color:#340d0d;
   padding: 10px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
